@@ -24,8 +24,8 @@ const Home = () => {
   return <Box >
 
 <MyCarousel />
-<Container maxW ={'container.xl'} minH={'100vh'} p="16" >
-    <Heading textTransform={'upperCase'} py="2" w={'fit-content'} borderBottom={"2px solid"} m="auto">
+<Container maxW ={'container.xl'} minH={'70vh'} p="16" >
+    <Heading textTransform={'upperCase'} py="2" w={'fit-content'} borderBottom={"2px solid"} m="auto" marginTop={['-350','auto']}>
         Services
         </Heading>
         <Stack
@@ -33,6 +33,7 @@ const Home = () => {
         p={'4'}
         alignItems={"center"}
         direction={['column','row']} //stack ki achhi baat ye hai ki responsivee banti jati haai mobile ke column ho jayega aur big screen ke liye row
+        
         >
             <Image src={img5} h= {['40','400']} filter={"hue-rotate(-130deg)"} />
 
